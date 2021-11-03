@@ -1,4 +1,4 @@
-# Phyton_Modulo01
+# Phyton_Posworkouts
 Entregables a BDU para Python Modulo 01
 
 Sesión 01. Cálculo de intereses bancarios
