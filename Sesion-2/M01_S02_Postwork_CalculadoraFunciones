@@ -86,13 +86,12 @@ def generar_reporte(tarjeta_dict):
     print("")
     print("")
 
-# 4. Imprimir tarjetas
+# 4. Imprimir tarjetas #Usuario modulo
 def imprimir_tarjetas(lista_tarjetas):
     #recorrer la lista de tarjetas 
     for diccionario_tarjeta in lista_tarjetas:
         #recorrer e imprimir la informacion de cada tarjeta -- diccionario
-        for key in diccionario_tarjeta:
-            generar_reporte(diccionario_tarjeta)
+        generar_reporte(diccionario_tarjeta)
 
 
 
@@ -134,11 +133,13 @@ print('-'*15 , " Bienvenido a su banco ", '-'*15)
 print(' '*5 , " Por favor digite el número de la acción que desea realizar", ' '*5)
 print(' '*5 , " 1. Incluir nueva tarjeta", ' '*5)
 print(' '*5 , " 2. Calcular proyección de tarjeta", ' '*5)
+print(' '*5, " 3. Captutar varias tarjetas", ' '*5)
 print('-'*50)
 
 def main():
     #Capturar la accion
     opcion = int( input('Digite la acción: ') ) 
+    lista_tarjetas = []
 
     if opcion == 1:
         tarjeta_nueva = crea_tarjeta()
@@ -153,10 +154,25 @@ def main():
         print("2. ", tarjeta_recurrente)
         #Pasar a cálculo de proyección
         pago_recurrente(tarjeta_recurrente)
-        #lista del pago recurrente
-        #lista_pago_recurrente = []
-        #print('prueba tarjeta',lista_tarjeta[-1])
-        #pago_recurrente(lista_tarjeta[-1], lista_pago_recurrente)
+    elif opcion == 3:
+        while opcion == 3:
+            tarjeta_varias = crea_tarjeta()
+            tarjeta_a_lista = captura_nueva_deuda(tarjeta_varias)
+            #print(tarjeta_a_lista)
+            lista_tarjetas.append(tarjeta_a_lista)
+            #print( "lista tarjeta: ", lista_tarjetas)
+            print("")
+            adicion_tarjeta = input("¿Desea agregar una nueva tarjeta? (Y/N): ")
+            if adicion_tarjeta == 'N':
+                opcion = -1
+            elif adicion_tarjeta != 'Y':
+                opcion = -1
+
+            
+        
+        imprimir_tarjetas(lista_tarjetas)
+
+
 
     else:
         print(' ')
@@ -166,4 +182,3 @@ def main():
 
 main()
 # Llamada para incluir nueva tarjeta
-
