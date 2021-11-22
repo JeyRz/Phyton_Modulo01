@@ -113,33 +113,27 @@ def pago_recurrente(tarjeta_dict):
         tarjeta_dict['N_deuda'] = 0
         generar_reporte(tarjeta_dict)
 
-def pago_recurrente_dif_pagos(tarjeta_dict):
+def pago_recurrente_dif_pagos(tarjeta_recibida):
     """
     Mediante una tarjeta permite calcular un pago recurrente diferente
     hasta cancelar la totalidad de la deuda.
     """
-    tarjeta_recibida = tarjeta_dict
-    #print("Tarjeta l: ", tarjeta_recibida)
 
     while tarjeta_recibida['Pago'] < tarjeta_recibida['Deuda']:
 
         generar_reporte(tarjeta_recibida)
         #print(tarjeta_recibida)
-        
+        tarjeta_recibida['Deuda'] = tarjeta_recibida['N_deuda']
         # Capturar nuevo pago
-        #deuda = tarjeta_recibida['Deuda']
         nuevo_pago = pago_mayor_deuda (tarjeta_recibida['Deuda'])
-
-        tarjeta_recibida['Deuda'] = nuevo_pago
+        tarjeta_recibida['Pago'] = nuevo_pago
         tarjeta_recibida['N_cargos'] = 0
-        # Calcular nueva deuda con el mismo pago
-        tarjeta_recibida = captura_nueva_deuda(tarjeta_dict, 2)
+        tarjeta_recibida = captura_nueva_deuda(tarjeta_recibida, 2)
     
     if tarjeta_recibida['N_deuda'] != 0:
-        #tarjet_dict['Deuda'] = tarjet_dict['N_deuda']
         tarjeta_recibida['Pago'] = tarjeta_recibida['Deuda']
         tarjeta_recibida['T_mensual'] = 0
-        tarjeta_dict['T_recalculada'] = 0
-        tarjeta_dict['N_deuda'] = 0
-        generar_reporte(tarjeta_dict)
+        tarjeta_recibida['T_recalculada'] = 0
+        tarjeta_recibida['N_deuda'] = 0
+        generar_reporte(tarjeta_recibida)
 
