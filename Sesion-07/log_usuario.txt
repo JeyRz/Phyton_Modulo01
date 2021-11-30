@@ -1,0 +1,39 @@
+Se crea el usuario Jeimy 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+Se cierra la conexión a la base de datos 
+Se elimina la base de datos
+Se crea el usuario Jeimy 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+Se cierra la conexión a la base de datos 
+Se elimina la base de datos
+Se crea el usuario Jeimy 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+Se cierra la conexión a la base de datos 
+Se elimina la base de datos
+Se crea el usuario Jeimy 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario importó tarjetas del archivo tarjetas_Jeimy.csv
+Se crea el usuario Ricardo 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario importó tarjetas del archivo tarjetas_Ricardo.csv
+Se crea el usuario Anna 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario importó tarjetas del archivo tarjetas_Anna.csv
+Se crea el usuario Jeimy 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario importó tarjetas del archivo tarjetas_Jeimy.csv
+Se crea el usuario Ricardo 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario importó tarjetas del archivo tarjetas_Ricardo.csv
+Se crea el usuario Anna 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario importó tarjetas del archivo tarjetas_Anna.csv
+Se crea el usuario Jeimy 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario importó tarjetas del archivo tarjetas_Jeimy.csv
+Se crea el usuario Ricardo 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario importó tarjetas del archivo tarjetas_Ricardo.csv
+Se crea el usuario Anna 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario importó tarjetas del archivo tarjetas_Anna.csv

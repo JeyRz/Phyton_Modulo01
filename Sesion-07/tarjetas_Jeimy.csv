@@ -1,0 +1,4 @@
+Nombre;Tasa (%);Deduda;Pago;Nuevos_cargos;Deuda_recal;Tasa_Men;Nueva_Deuda
+Visa;2.0;1000.0;200.0;200.0;801.6;0.2;1001.6
+Master;3.0;3000.0;200.0;50.0;2805.6;0.2;2855.6
+Rappi;1.0;4500.0;110.0;100.0;3340.0;0.1;3830.6
