@@ -1,0 +1,22 @@
+[
+    {
+        "Nombre": "Visa",
+        "Tasa": 2.0,
+        "Deuda": 1000.0,
+        "Pago": 200.0,
+        "N_cargos": 200.0,
+        "T_recalculada": 801.6,
+        "T_mensual": 0.2,
+        "N_deuda": 1001.6
+    },
+    {
+        "Nombre": "Master",
+        "Tasa": 2.0,
+        "Deuda": 3000.0,
+        "Pago": 200.0,
+        "N_cargos": 50.0,
+        "T_recalculada": 2805.6,
+        "T_mensual": 0.2,
+        "N_deuda": 2855.6
+    }
+]

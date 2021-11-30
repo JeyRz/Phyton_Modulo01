@@ -1,0 +1,31 @@
+Se crea el usuario Jeimy 
+Se crea el usuario Jeimy 
+Se crea el usuario Jeimy 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario imprime las tarjetas de la BD
+------------------------------------------------------------------------------------------------------------------------
+              Nombre   Tasa (%) Deduda     Pago       Nuevos_cargos Deuda_recal Tasa_Men   Nueva_Deuda
+------------------------------------------------------------------------------------------------------------------------
+                Visa        2.0     1000.0      200.0      200.0      801.6        0.2     1001.6
+              Master        2.0     3000.0      200.0       50.0     2805.6        0.2     2855.6
+------------------------------------------------------------------------------------------------------------------------
+Se cierra la conexión a la base de datos 
+Se elimina la base de datos
+Se crea el usuario Jeimy 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario ha insertado una tarjeta a la BD
+Se cierra la conexión a la base de datos 
+Se elimina la base de datos
+Se crea el usuario Jeimy 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario ha insertado una tarjeta a la BD
+Se cierra la conexión a la base de datos 
+Se elimina la base de datos
+Se crea el usuario Jeimy 
+Se crea la tabla Tarjeta en una base de datos qlite3 
+El usuario ha insertado una tarjeta a la BD
+Visa,3.0,1000.0,500.0,20.0,501.0,0.2,521.0
+El usuario ha insertado una tarjeta a la BD
+Otro,5.0,400.0,1.0,1.0,400.6,0.4,401.6
+Se cierra la conexión a la base de datos 
+Se elimina la base de datos
